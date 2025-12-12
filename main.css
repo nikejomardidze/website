@@ -1,0 +1,224 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;    
+    display: flex;     
+    gap: 40px;           
+    justify-content: center;
+    border: solid 1px rgb(101, 97, 97);
+    padding: 15px;
+}
+.navbar a {
+    color: black;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+.title-container{
+    height: 70vh;
+    padding: 0px 10vw;
+    background-image: url('https://images.unsplash.com/photo-1596382941406-d743d70d5ed0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.title{
+    position:absolute;
+   margin-top: 80px;
+   color:rgb(9, 9, 9)
+}
+.title>h1{
+    font-size: 40px;
+    width: 400px;
+    border-bottom: solid 3px rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+.title>p{
+    margin-top: 40px;
+    width: 250px;
+    font-size: 18px;
+}
+.title>button{
+    font-size: 17px;
+    padding: 15px 35px;
+    height: 30px;
+    border: 2px solid #717071;
+    background:rgb(246, 245, 245);
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.best-sellers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.best-title{
+   background-color: rgb(220, 220, 220);
+   width: 80%;
+   padding: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 23px;
+}
+.best-products{
+    display: flex;
+    justify-content: space-evenly;
+    gap:40px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.best-one{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.best-two{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.best-three{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.best-four{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.subscription{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
+.subscription-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    background-size: cover;
+    width: 48%;
+}
+.subscription-text>h2{
+    margin-bottom: 20px;
+}
+.subscription-text>h1{
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+.subscription-text>p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.subscription-text>button{
+    font-size: 17px;
+    padding: 15px 35px;
+    height: 30px;
+    border: 2px solid #717071;
+    background:rgb(246, 245, 245);
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+.brands{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-color: rgb(234, 234, 234)
+}
+.brands-title{
+    background-size: cover;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+.brand-logos{
+    display: flex;
+    gap:60px
+}
+.logo{
+    border: solid 1px black;
+    padding: 10px;
+    background-color: white;
+}
+
+.footer-newsletter {
+    margin-top: 150px;
+    background-color: #d9d9d9;
+    width:98%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-newsletter h3 {
+    font-size: 20px;
+    color:black;
+}
+
+.newsletter-box {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter-box input {
+    padding: 10px 15px;
+    border: 1px solid #b5b5b5;
+    background: white;
+    outline: none;
+}
+
+.newsletter-box button {
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    background-color: #f7f7f7;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 100px;
+    background: #515151;
+    color: white;
+    padding-bottom: 50px;
+}
+  
+.footer-title {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+.footer-title h4 {
+    font-size: 24px;
+  }
+  
+.footer-main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
