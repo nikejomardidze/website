@@ -71,7 +71,7 @@
 .intro>h1{
     margin-bottom: 50px;
     font-size: 40px;
-    background-color: #c1bec1;
+    background-color: #ded8de;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,7 +122,7 @@
 }
 .jane-title{
     margin-bottom: 50px;
-    background-color: #c1bec1;
+    background-color: #ded8de;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -181,9 +181,9 @@
     object-fit: cover;
 }
 
-.footer-subscription {
+.footer-subscribe {
     margin-top: 150px;
-    background-color: #d9d9d9;
+    background-color: #ded8de;
     width:97.5%;
     padding: 20px;
     display: flex;
@@ -191,24 +191,24 @@
     align-items: center;
 }
 
-.footer-subscription h3 {
+.footer-subscribe h3 {
     font-size: 20px;
     color:black;
 }
 
-.subscription-box {
+.subscribe-box {
     display: flex;
     gap: 10px;
 }
 
-.subscription-box input {
+.subscribe-box input {
     padding: 10px 15px;
     border: 1px solid #b5b5b5;
     background: white;
     outline: none;
 }
 
-.subscription-box button {
+.subscribe-box button {
     padding: 10px 15px;
     color: rgb(0, 0, 0);
     background-color: #f7f7f7;

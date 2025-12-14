@@ -69,9 +69,9 @@
     margin-top: 150px;
 }
 .best-title{
-   background-color: rgb(220, 220, 220);
-   width: 80%;
-   padding: 15px;
+   background-color: #ded8de;
+   width: 90%;
+   padding: 10px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -81,8 +81,8 @@
 .best-products{
     display: flex;
     justify-content: space-evenly;
-    gap:40px;
-    padding-top: 50px;
+    gap:70px;
+    padding-top: 80px;
     font-size: 20px;
 }
 .best-one{
@@ -170,10 +170,52 @@
     padding: 10px;
     background-color: white;
 }
+.fashion-feature {
+    background-color: #3e3e3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10vw;
+    gap: 60px;
+    margin-top: 150px;
+}
+
+.feature-text {
+    color: white;
+    width: 300px;
+    position: relative;
+}
+
+.feature-text>h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.feature-text>p {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.vertical-text {
+    position: absolute;
+    left: -60px;
+    top: 0;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #aaa;
+}
+
+.feature-image img {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+}
 
 .footer-subscribe {
     margin-top: 150px;
-    background-color: #d9d9d9;
+    background-color:#ded8de;
     width:97.5%;
     padding: 20px;
     display: flex;
