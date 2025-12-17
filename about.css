@@ -94,16 +94,6 @@
     font-size: 26px;
     margin-top:0px;
 }
-#adress{
-    margin-top: 10px;
-    width: 150px;
-    margin-bottom: 20px;
-}
-#online{
-    margin-top: 5px;
-    width: 250px;
-    margin-bottom: 30px;
-}
 .jane-text{
     margin-top: 120px;
     display: flex;
@@ -239,3 +229,118 @@ footer {
     justify-content: space-around;
     gap: 30px;
   }
+
+  @media (max-width: 768px) {
+    .title-container {
+        height: auto;
+        padding: 60px 6vw;
+    }
+
+    .title {
+        position: static;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .title>h1 {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .title>p {
+        font-size: 15px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .title>button {
+        font-size: 15px;
+        padding: 12px 25px;
+        margin-top: 15px;
+    }
+    .intro {
+        margin-top: 100px;
+        padding: 0 5vw;
+        text-align: center;
+    }
+
+    .intro > h1, .jane-title {
+        font-size: 24px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .intro > p, .text {
+        width: 100%;
+        max-width: 90%;
+        font-size: 15px;
+        margin: 0 auto 20px auto;
+    }
+
+    .intro > h2 {
+        font-size: 20px;
+    }
+
+    .jane-text {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .fashion-feature {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        padding: 60px 6vw;
+    }
+
+    .feature-text {
+        width: 100%;
+    }
+
+    .vertical-text {
+        position: static;
+        writing-mode: horizontal-tb;
+        transform: none;
+        margin-bottom: 10px;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .feature-image img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .footer-subscribe {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 15px;
+        gap: 20px;
+    }
+
+    .subscribe-box {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .subscribe-box input,
+    .subscribe-box button {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .footer-title {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
