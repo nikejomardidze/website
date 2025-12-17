@@ -6,87 +6,85 @@
 }
 
 body {
-  background: #f6d6da;
+  background: #f8f8f8;
 }
 
-.promo {
-  padding: 60px 20px;
-}
-
-.promo-box {
+.testimonials {
   max-width: 1200px;
-  margin: auto;
-  background: #f6d6da;
-  display: grid;
-  grid-template-columns: 1fr 1fr auto;
-  align-items: center;
-  gap: 40px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
 }
 
-.promo-left h2 {
+.testimonials h2 {
+  margin-bottom: 40px;
   font-size: 24px;
-  margin-bottom: 10px;
 }
 
-.subtitle {
-  font-weight: bold;
-  margin-bottom: 10px;
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
-.text {
-  font-size: 14px;
-  color: #444;
-  margin-bottom: 20px;
-  max-width: 260px;
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  text-align: left;
 }
 
-.socials {
-  display: flex;
-  gap: 12px;
-}
-
-.socials i {
-  width: 36px;
-  height: 36px;
-  border: 1px solid #000;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-
-.promo-center h2 {
-  font-size: 22px;
+.stars {
+  color: #ff7a00;
+  font-size: 18px;
   margin-bottom: 15px;
 }
 
-.promo-center p {
-  font-size: 14px;
-  color: #444;
-  max-width: 300px;
+.card h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
 }
-.promo-right img {
-  width: 220px;
-  height: 220px;
+
+.text {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.author {
+  margin-bottom: 25px;
+}
+
+.author span {
+  display: block;
+  font-size: 14px;
+  color: #888;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.product img {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
   object-fit: cover;
-  border-radius: 4px;
+}
+
+.product p {
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 
 
 @media (max-width: 900px) {
-  .promo-box {
+  .cards {
     grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .promo-center p,
-  .text {
-    margin: auto;
-  }
-
-  .socials {
-    justify-content: center;
   }
 }
