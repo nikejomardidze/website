@@ -6,85 +6,87 @@
 }
 
 body {
-  background: #f8f8f8;
+  background: #f6d6da;
 }
 
-.testimonials {
+.promo {
+  padding: 60px 20px;
+}
+
+.promo-box {
   max-width: 1200px;
-  margin: 80px auto;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.testimonials h2 {
-  margin-bottom: 40px;
-  font-size: 24px;
-}
-
-.cards {
+  margin: auto;
+  background: #f6d6da;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  gap: 40px;
 }
 
-.card {
-  background: #fff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-  text-align: left;
+.promo-left h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.stars {
-  color: #ff7a00;
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-.card h3 {
-  margin-bottom: 15px;
-  font-size: 18px;
+.subtitle {
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .text {
-  color: #555;
-  line-height: 1.6;
-  margin-bottom: 25px;
-}
-
-.author {
-  margin-bottom: 25px;
-}
-
-.author span {
-  display: block;
   font-size: 14px;
-  color: #888;
+  color: #444;
+  margin-bottom: 20px;
+  max-width: 260px;
 }
 
-.product {
+.socials {
+  display: flex;
+  gap: 12px;
+}
+
+.socials i {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #000;
+  border-radius: 50%;
   display: flex;
   align-items: center;
-  gap: 15px;
-  border-top: 1px solid #eee;
-  padding-top: 20px;
+  justify-content: center;
+  cursor: pointer;
 }
 
-.product img {
-  width: 60px;
-  height: 60px;
-  border-radius: 6px;
-  object-fit: cover;
+
+.promo-center h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 
-.product p {
+.promo-center p {
   font-size: 14px;
-  margin-bottom: 5px;
+  color: #444;
+  max-width: 300px;
+}
+.promo-right img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 
 @media (max-width: 900px) {
-  .cards {
+  .promo-box {
     grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .promo-center p,
+  .text {
+    margin: auto;
+  }
+
+  .socials {
+    justify-content: center;
   }
 }
