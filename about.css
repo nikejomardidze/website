@@ -1,0 +1,346 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;    
+    display: flex;     
+    gap: 40px;           
+    justify-content: center;
+    border: solid 1px rgb(101, 97, 97);
+    padding: 15px;
+}
+.navbar a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+.title-container{
+    height: 70vh;
+    padding: 0px 10vw;
+    background-image: url('https://images.unsplash.com/photo-1596383038607-c4f20c056ec2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.title{
+    position:absolute;
+   margin-top: 80px;
+   color:rgb(9, 9, 9)
+}
+.title>h1{
+    font-size: 40px;
+    width: 400px;
+    border-bottom: solid 3px rgb(255, 255, 255);
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.title>p{
+    margin-top: 40px;
+    width: 250px;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+
+}
+.title>button{
+    font-size: 17px;
+    padding: 15px 35px;
+    height: 30px;
+    border: 2px solid #717071;
+    background:rgb(246, 245, 245);
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.intro>h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+    background-color: #ded8de;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 97.5%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+
+}
+.intro>p{
+    width: 550px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.intro>h2{
+    font-size: 26px;
+    margin-top:0px;
+}
+.jane-text{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:150px
+}
+.text{
+    width: 550px;
+}
+.text>h1{
+    margin-bottom: 30px;
+}
+.text>p{
+    margin-bottom: 15px;
+}
+.jane-title{
+    margin-bottom: 50px;
+    background-color: #ded8de;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 97.5%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.fashion-feature {
+    background-color: #3e3e3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10vw;
+    gap: 60px;
+    margin-top: 150px;
+}
+
+.feature-text {
+    color: white;
+    width: 300px;
+    position: relative;
+}
+
+.feature-text>h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.feature-text>p {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.vertical-text {
+    position: absolute;
+    left: -60px;
+    top: 0;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #aaa;
+}
+
+.feature-image img {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+}
+
+.footer-subscribe {
+    margin-top: 150px;
+    background-color: #ded8de;
+    width:97.5%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-subscribe h3 {
+    font-size: 20px;
+    color:black;
+}
+
+.subscribe-box {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe-box input {
+    padding: 10px 15px;
+    border: 1px solid #b5b5b5;
+    background: white;
+    outline: none;
+}
+
+.subscribe-box button {
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    background-color: #f7f7f7;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    margin-top: 100px;
+    background: #515151;
+    color: white;
+    padding-bottom: 50px;
+}
+  
+.footer-title {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+.footer-title h4 {
+    font-size: 24px;
+  }
+  
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .title-container {
+        height: auto;
+        padding: 60px 6vw;
+    }
+
+    .title {
+        position: static;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .title>h1 {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .title>p {
+        font-size: 15px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .title>button {
+        font-size: 15px;
+        padding: 12px 25px;
+        margin-top: 15px;
+    }
+    .intro {
+        margin-top: 100px;
+        padding: 0 5vw;
+        text-align: center;
+    }
+
+    .intro > h1, .jane-title {
+        font-size: 24px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .intro > p, .text {
+        width: 100%;
+        max-width: 90%;
+        font-size: 15px;
+        margin: 0 auto 20px auto;
+    }
+
+    .intro > h2 {
+        font-size: 20px;
+    }
+
+    .jane-text {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .fashion-feature {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        padding: 60px 6vw;
+    }
+
+    .feature-text {
+        width: 100%;
+    }
+
+    .vertical-text {
+        position: static;
+        writing-mode: horizontal-tb;
+        transform: none;
+        margin-bottom: 10px;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .feature-image img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .footer-subscribe {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 15px;
+        gap: 20px;
+    }
+
+    .subscribe-box {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .subscribe-box input,
+    .subscribe-box button {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .footer-title {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}

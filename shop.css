@@ -1,0 +1,323 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;    
+    display: flex;     
+    gap: 40px;           
+    justify-content: center;
+    border: solid 1px rgb(101, 97, 97);
+    padding: 15px;
+}
+.navbar a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+.title-container{
+    height: 70vh;
+    padding: 0px 10vw;
+    background-image: url('https://images.unsplash.com/photo-1592839930643-6bf5b1aee9de?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.title{
+    position:absolute;
+   margin-top: 80px;
+   color:rgb(0, 0, 0)
+   
+}
+.title>h1{
+    color:white;
+    font-size: 40px;
+    width: 400px;
+    border-bottom: solid 3px rgb(255, 255, 255);
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.title>p{
+    margin-top: 40px;
+    width: 250px;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.filter-products{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px #717071;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /*width: 97%;
+    margin-left: 15px;*/
+    background-color: #ded8de;
+}
+.filter>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    padding: 15px 35px;
+    height: 30px;
+    border: 2px solid #717071;
+    background:rgb(246, 245, 245);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.sort>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    padding: 15px 35px;
+    height: 30px;
+    border: 2px solid #717071;
+    background:rgb(246, 245, 245);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+}
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    gap:40px;
+    padding-top: 80px;
+    font-size: 18px;
+}
+.picture{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    gap:40px;
+    padding-top: 150px;
+    font-size: 18px;
+}
+.row3{
+    display: flex;
+    justify-content: space-evenly;
+    gap:40px;
+    padding-top: 150px;
+    font-size: 18px;
+}
+.sale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+    background-color: #ded8de;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 150px;
+}
+.text>h1{
+    width: 350px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.text>p{
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+.text>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    padding: 15px 35px;
+    height: 30px;
+    border: 2px solid #717071;
+    background:rgb(246, 245, 245);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.footer-subscribe {
+    margin-top: 150px;
+    background-color:#ded8de;
+    width:97.5%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-subscribe h3 {
+    font-size: 20px;
+    color:black;
+}
+
+.subscribe-box {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe-box input {
+    padding: 10px 15px;
+    border: 1px solid #b5b5b5;
+    background: white;
+    outline: none;
+}
+
+.subscribe-box button {
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    background-color: #f7f7f7;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 100px;
+    background: #515151;
+    color: white;
+    padding-bottom: 50px;
+}
+  
+.footer-title {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+.footer-title h4 {
+    font-size: 24px;
+  }
+  
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .title-container {
+        height: auto;
+        padding: 60px 6vw;
+    }
+
+    .title {
+        position: static;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .title>h1 {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .title>p {
+        font-size: 15px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .buttons {
+        flex-direction: column;
+        padding: 20px 10vw;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .filter>button,
+    .sort>button {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+        padding: 12px 25px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .row1, .row2, .row3 {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 40px;
+        align-items: center;
+    }
+
+    .sale {
+        flex-direction: column;
+        gap: 30px;
+        height: auto;
+        padding: 40px 10vw;
+        text-align: center;
+    }
+
+    .text > h1 {
+        font-size: 28px;
+        width: 90%;
+        margin: 0 auto 15px auto;
+    }
+
+    .text > p {
+        font-size: 16px;
+    }
+
+    .text > button {
+        width: 100%;
+        max-width: 300px;
+        padding: 12px 25px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .footer-subscribe {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 5vw;
+    }
+
+    .subscribe-box {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .subscribe-box input,
+    .subscribe-box button {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .footer-title {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
